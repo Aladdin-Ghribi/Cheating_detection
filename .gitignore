@@ -1,0 +1,21 @@
+# Environment and dependencies
+venv/
+.env
+__pycache__/
+
+# Python specific files
+*.pyc
+*.log
+.mypy_cache/
+.pytest_cache/
+
+# Data and Model artifacts (large files, should be handled by Git LFS or excluded)
+data/
+models/
+runs/
+weights/
+
+# OS and IDE files
+.vscode/
+.DS_Store
+Thumbs.db

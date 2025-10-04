@@ -1,0 +1,16 @@
+Core ML/CV
+
+ultralytics
+torch
+torchvision # Required dependency for PyTorch/ultralytics (often included, but good practice to list)
+opencv-python
+Data Manipulation
+
+numpy
+pandas
+Real-Time Capture and UI
+
+mss # For fast screen capture
+pynput # For behavioral biometrics (keystroke/mouse logging)
+scikit-learn # For anomaly detection (Phase 2)
+streamlit # For the UI Dashboard (Phase 3)
